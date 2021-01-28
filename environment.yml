@@ -1,0 +1,26 @@
+name: geoml
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - keras-gpu
+  - pytorch=1.7
+  - tqdm
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - scikit-image
+  - jupyter
+  - pandas
+  - pip
+  - pip:
+    - gputil
+    - segyio
+    - albumentations
+    - segmentation-models-pytorch
+    - pytorch-toolbelt
+    - runipy
+    - catalyst
+    - ttach
+    - pylops

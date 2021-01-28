@@ -1,0 +1,20 @@
+000: train5_fcn1, xz section patches, solo argmax e ripetizione dell'ultima  slice per assi 0 e 1. DATI NON NORMALIZZATI
+001: train5_fcn1, xz section patches, solo argmax e ripetizione dell'ultima  slice per assi 0 e 1. DATI NORMALIZZATI
+002: train5_fcn1, xz section patches, solo argmax e ripetizione dell'ultima  slice per assi 0 e 1. DATI NORMALIZZATI RISPETTO AL TRAINING
+
+003: train8xz_fcn1_chinge, xz section patches, solo argmax e ripetizione dell'ultima  slice per assi 0 e 1. DATI NORMALIZZATI RISPETTO AL TRAINING
+
+004: train8xz_float6, xz section patches. Bellino!
+005: train9xz_float1, xz section patches. Bellino! Forse meglio di quell'altro, che inverto il train e validation
+006: train11xz_float1, che sarebbero patch 256x256; xz section patches. Peggio ma interessante.
+
+
+007: torch_segmentation, che sarebbe: Unet, cce + 0.01 dice, resize 512x256, nessuna augmentation. Porco cazzo.
+
+
+008: argus_5folds_0
+009: resize_multiresunet
+010: argus_1folds_0
+011: resize_multiresunet con label remapping
+012: resize_multiresunet con data normalization, sembra andare peggio!
+013: resize_multiresunet dritto per dritto
