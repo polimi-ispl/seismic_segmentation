@@ -1,1 +1,0 @@
-# fault-segmentation-pytorch
